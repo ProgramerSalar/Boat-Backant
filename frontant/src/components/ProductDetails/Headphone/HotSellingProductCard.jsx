@@ -12,7 +12,7 @@ const HotSellingProductCard = (i) => {
                 <div className="product-section" >
                     <div className="product-image">
                         <p className="image-heading">BEST VALUE</p>
-                        <a href="#" >
+                        <a >
                             <img  src={i.image} alt="" />
                         </a>
                     </div>

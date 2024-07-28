@@ -1,36 +1,27 @@
-import Navbar from "../../NavBar";
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
-import { Carousel } from "react-responsive-carousel";
+import Navbar from "../../NavBar";
 // import Data from "../../../assets/data/Headphone/headphone.json";
 import { useEffect, useState } from "react";
-import one from "../../../assets/product_details/privacy/one.png";
-import two from "../../../assets/product_details/privacy/two.png";
-import three from "../../../assets/product_details/privacy/three.png";
 
-import { FaStar } from "react-icons/fa";
-import Col_Two from "./Col_Two";
 
-import { NavLink, useParams } from "react-router-dom";
+import { useParams } from "react-router-dom";
 // import ProductCard from "./ProductCard";
 import { useProductContext } from "../../../context/productContext";
 // import WatchColor from "./WatchColor";
 import Col_One from "./Col_One";
 // import ProductColor from "./ProductColor";
-import CrouselProduct from "../Headphone/CrouselProduct";
-import WatchColor from "./WatchColor";
 import Privacy from "../Privacy";
 // import ProductContantCrousel from "./ProductContantCrousel";
-import Footer from "../../Footer";
-import Testimonials from "../../Testimonials";
-import FAQ from "../../Spacification/FAQ_constant";
-import Disclaimer from "../../Spacification/Disclaimer";
-import Spacification from "../../Spacification/Spacification";
+import { useCartContext } from "../../../context/Cart_Context";
 import Heading from "../../CustomerReview/Heading";
 import Review from "../../CustomerReview/Review";
-import ProductContant from "./ProductContant";
+import Footer from "../../Footer";
+import Disclaimer from "../../Spacification/Disclaimer";
+import FAQ from "../../Spacification/FAQ_constant";
+import Spacification from "../../Spacification/Spacification";
+import Testimonials from "../../Testimonials";
 import ColorAndQuantity from "./ColorAndQuantity";
-import { useCartContext } from "../../../context/Cart_Context";
-import ImageCarousel from "../../Image_Crousel";
+import ProductContant from "./ProductContant";
 import ProductContantCrousel from "./ProductContantCrousel";
 // import {defineConfig} from "vite";
 
@@ -44,16 +35,6 @@ import ProductContantCrousel from "./ProductContantCrousel";
 const API = `http://www.gnoise.shop/api/product_details`;
 
 
-// const APIS = defineConfig({
-//   server:{
-//     open:`http://api.gnoise324.online/product_details`
-//   }
-// })
-
-// console.log("APIS", APIS)
-
-
-// console.log("API", API)
 
 
 
@@ -115,6 +96,27 @@ const ProductDetails = () => {
   useEffect(() => {
     getSingleProduct(`${API}/${id}`);
   }, []);
+
+
+  useEffect(() => {
+    // This function will be called on the initial render
+    const handleBeforeUnload = (event) => {
+      // Cancel the event as stated by the standard
+      event.preventDefault();
+      // Chrome requires returnValue to be set
+      event.returnValue = '';
+    };
+
+    // Add the event listener
+    window.addEventListener('beforeunload', handleBeforeUnload);
+
+    // Clean up the event listener on component unmount
+    return () => {
+      window.removeEventListener('beforeunload', handleBeforeUnload);
+    };
+  }, []); // Empty dependency array ensures the effect runs only once
+
+
 
   return (
     <div className="product-details">

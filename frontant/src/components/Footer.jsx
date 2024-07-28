@@ -28,13 +28,13 @@ const Footer = () => {
                   <h3>Smart Watches</h3>
                   <div className="icon">
                     <a
-                      href="#"
+                      
                       style={{ display: SmartWatch ? "none" : "flex" }}
                     >
                       <RiArrowDownSLine />
                     </a>
                     <a
-                      href="#"
+                      
                       style={{ display: SmartWatch ? "block" : "none" }}
                       className="arrow-up"
                     >
@@ -53,25 +53,25 @@ const Footer = () => {
                       <div className="smart-watches-container">
                         <div className="shop-by-price-section">
                           <h3>Shop by Price</h3>
-                          <span  href="">Smart Watches Under 2000</span>
-                          <span href="">Smart Watches Under 3000</span>
-                          <span href="">Smart Watches Under 4000</span>
-                          <span href="">Smart Watches Above 5000</span>
+                          <span  >Smart Watches Under 2000</span>
+                          <span >Smart Watches Under 3000</span>
+                          <span >Smart Watches Under 4000</span>
+                          <span >Smart Watches Above 5000</span>
                         </div>
                         <div className="shop-by-features-section">
                           <h3>Shop by Features</h3>
-                          <span href="">Smart Watches with Alexa</span>
-                          <span href="">AMOLED Display Smart Watches</span>
-                          <span href="">Round Deal Smart Watches</span>
-                          <span href="">Metallic & eather Smart Watches</span>
-                          <span href="">BT Calling Smart Watches</span>
-                          <span href="">Android Smart Watches</span>
+                          <span >Smart Watches with Alexa</span>
+                          <span >AMOLED Display Smart Watches</span>
+                          <span >Round Deal Smart Watches</span>
+                          <span >Metallic & eather Smart Watches</span>
+                          <span >BT Calling Smart Watches</span>
+                          <span >Android Smart Watches</span>
                         </div>
                         <div className="shop-by-gender-section">
                           <h3>Shop by Gender</h3>
-                          <span href="">Smart Watches for Men</span>
-                          <span href="">Smart Watches for Woman</span>
-                          <span href="">Smart Watches for Kids</span>
+                          <span >Smart Watches for Men</span>
+                          <span >Smart Watches for Woman</span>
+                          <span >Smart Watches for Kids</span>
                         </div>
                       </div>
                     </div>
@@ -89,13 +89,13 @@ const Footer = () => {
                   <h3>Wireless Earbuds</h3>
                   <div className="icon">
                     <a
-                      href="#"
+                      
                       style={{ display: WirelessEarbuds ? "none" : "flex" }}
                     >
                       <RiArrowDownSLine />
                     </a>
                     <a
-                      href="#"
+                      
                       style={{ display: WirelessEarbuds ? "block" : "none" }}
                       className="arrow-up"
                     >
@@ -114,16 +114,16 @@ const Footer = () => {
                       <div className="price-and-feature-container">
                         <div className="Shop-by-price-section">
                           <h3>Shop by Price</h3>
-                          <span href="">Earbuds Under 1000</span>
-                          <span href="">Earbuds Under 1500</span>
-                          <span href="">Earbuds Under 2000</span>
-                          <span href="">Earbuds Under 2500</span>
-                          <span href="">Earbuds Above 2500</span>
+                          <span >Earbuds Under 1000</span>
+                          <span >Earbuds Under 1500</span>
+                          <span >Earbuds Under 2000</span>
+                          <span >Earbuds Under 2500</span>
+                          <span >Earbuds Above 2500</span>
                         </div>
                         <div className="Shop-by-features-section">
                           <h3>Shop by Features</h3>
-                          <span href="">ANC Earbuds</span>
-                          <span href="">Gaming Earbuds</span>
+                          <span >ANC Earbuds</span>
+                          <span >Gaming Earbuds</span>
                         </div>
                         <div></div>
                       </div>
@@ -140,25 +140,25 @@ const Footer = () => {
               <div className="smart-watches-container">
                 <div className="shop-by-price-section">
                   <h3>Shop by Price</h3>
-                  <span href="">Smart Watches Under 2000</span>
-                  <span href="">Smart Watches Under 3000</span>
-                  <span href="">Smart Watches Under 4000</span>
-                  <span href="">Smart Watches Above 5000</span>
+                  <span >Smart Watches Under 2000</span>
+                  <span >Smart Watches Under 3000</span>
+                  <span >Smart Watches Under 4000</span>
+                  <span >Smart Watches Above 5000</span>
                 </div>
                 <div className="shop-by-features-section">
                   <h3>Shop by Features</h3>
-                  <span href="">Smart Watches with Alexa</span>
-                  <span href="">AMOLED Display Smart Watches</span>
-                  <span href="">Round Deal Smart Watches</span>
-                  <span href="">Metallic & eather Smart Watches</span>
-                  <span href="">BT Calling Smart Watches</span>
-                  <span href="">Android Smart Watches</span>
+                  <span >Smart Watches with Alexa</span>
+                  <span >AMOLED Display Smart Watches</span>
+                  <span >Round Deal Smart Watches</span>
+                  <span >Metallic & eather Smart Watches</span>
+                  <span >BT Calling Smart Watches</span>
+                  <span >Android Smart Watches</span>
                 </div>
                 <div className="shop-by-gender-section">
                   <h3>Shop by Gender</h3>
-                  <span href="">Smart Watches for Men</span>
-                  <span href="">Smart Watches for Woman</span>
-                  <span href="">Smart Watches for Kids</span>
+                  <span >Smart Watches for Men</span>
+                  <span >Smart Watches for Woman</span>
+                  <span >Smart Watches for Kids</span>
                 </div>
               </div>
             </div>
@@ -168,16 +168,16 @@ const Footer = () => {
               <div className="price-and-feature-container">
                 <div className="Shop-by-price-section">
                   <h3>Shop by Price</h3>
-                  <span href="">Earbuds Under 1000</span>
-                  <span href="">Earbuds Under 1500</span>
-                  <span href="">Earbuds Under 2000</span>
-                  <span href="">Earbuds Under 2500</span>
-                  <span href="">Earbuds Above 2500</span>
+                  <span >Earbuds Under 1000</span>
+                  <span >Earbuds Under 1500</span>
+                  <span >Earbuds Under 2000</span>
+                  <span >Earbuds Under 2500</span>
+                  <span >Earbuds Above 2500</span>
                 </div>
                 <div className="Shop-by-features-section">
                   <h3>Shop by Features</h3>
-                  <span href="">ANC Earbuds</span>
-                  <span href="">Gaming Earbuds</span>
+                  <span >ANC Earbuds</span>
+                  <span >Gaming Earbuds</span>
                 </div>
                 <div></div>
               </div>

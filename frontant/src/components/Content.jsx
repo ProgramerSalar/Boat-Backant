@@ -27,7 +27,7 @@ const Content = () => {
 
                 {/* first wallpaper  */}
                 <div className="first-content-wallpaper">
-                    <a href="https://www.gonoise.com/products/luna-smart-ring">
+                    <a href="/hot-selling-product-collection">
                         <img src={thirteen} alt="" className="wallpaper-1" />
 
                     </a>
@@ -70,7 +70,7 @@ const Content = () => {
 
                         <div className="second-product-content">
                             <div className="product-content">
-                                <a href="">
+                                <a >
                                     <p>For your <br /> Lifestyle <GrLinkNext /> </p>
 
                                 </a>
@@ -80,7 +80,7 @@ const Content = () => {
                                 </a>
                             </div>
                             <div className="product-content">
-                                <a href="">
+                                <a >
                                     <p>For Productivity <GrLinkNext /> </p>
 
                                 </a>
@@ -98,7 +98,7 @@ const Content = () => {
 
                 {/* send wallpaper  */}
                 <div className="second-content-wallpaper">
-                    <a href="">
+                    <a >
                         <img src={eleven} alt="" />
 
                     </a>

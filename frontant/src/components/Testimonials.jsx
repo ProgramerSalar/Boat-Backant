@@ -58,18 +58,18 @@ const Testimonials = () => {
       <div className="testimonial-container">
         {/* first  */}
         <div className="logo">
-          <a href="">
+          <a >
             <img src={logo} alt="" className="noise-logo-company" />
           </a>
           <h3>Follow Us</h3>
           <div className="link">
-            <a href="">
+            <a >
               <img src={fb} alt="" />
             </a>
-            <a href="">
+            <a >
               <img src={instagram} alt="" />
             </a>
-            <a href="">
+            <a >
               <img src={youtube} alt="" />
             </a>
           </div>
@@ -84,13 +84,13 @@ const Testimonials = () => {
                   <h3>Our product</h3>
                   <div className="icon">
                     <a
-                      href="#"
+                      
                       style={{ display: ourProduct ? "none" : "flex" }}
                     >
                       <RiArrowDownSLine />
                     </a>
                     <a
-                      href="#"
+                      
                       style={{ display: ourProduct ? "block" : "none" }}
                       className="arrow-up"
                     >
@@ -105,11 +105,11 @@ const Testimonials = () => {
                 >
                   <div className="about-the-product-contant">
                     <p>Our Products</p>
-                    <span    href="">Smart Watches</span>
-                    <span   href="">Wireless Earbuds</span>
-                    <span   href="">Luna Smart Ring</span>
-                    <span     href="">NoiseFit App</span>
-                    <span   href="">Noise Gift Card</span>
+                    <span    >Smart Watches</span>
+                    <span   >Wireless Earbuds</span>
+                    <span   >Luna Smart Ring</span>
+                    <span     >NoiseFit App</span>
+                    <span   >Noise Gift Card</span>
                   </div>
                 </div>
               </div>
@@ -122,13 +122,13 @@ const Testimonials = () => {
                   <h3>For Business</h3>
                   <div className="icon">
                     <a
-                      href="#"
+                      
                       style={{ display: forBusiness ? "none" : "flex" }}
                     >
                       <RiArrowDownSLine />
                     </a>
                     <a
-                      href="#"
+                      
                       style={{ display: forBusiness ? "block" : "none" }}
                       className="arrow-up"
                     >
@@ -143,9 +143,9 @@ const Testimonials = () => {
                 >
                   <div className="about-the-product-contant">
                     <p>For Business</p>
-                    <span   href="">Noise for Business</span>
-                    <span   href="">Corporate Enquiries</span>
-                    <span   href="">Brand Partnership Enquiries</span>
+                    <span   >Noise for Business</span>
+                    <span   >Corporate Enquiries</span>
+                    <span   >Brand Partnership Enquiries</span>
                   </div>
                 </div>
               </div>
@@ -158,13 +158,13 @@ const Testimonials = () => {
                   <h3>About Noise</h3>
                   <div className="icon">
                     <a
-                      href="#"
+                      
                       style={{ display: AboutNoise ? "none" : "flex" }}
                     >
                       <RiArrowDownSLine />
                     </a>
                     <a
-                      href="#"
+                      
                       style={{ display: AboutNoise ? "block" : "none" }}
                       className="arrow-up"
                     >
@@ -179,10 +179,10 @@ const Testimonials = () => {
                 >
                   <div className="about-the-product-contant">
                     <p>About Noise</p>
-                    <span   href="">About Us</span>
-                    <span   href="">Blogs</span>
-                    <span   href="">Careers</span>
-                    <span  href="">In the Press</span>
+                    <span   >About Us</span>
+                    <span   >Blogs</span>
+                    <span   >Careers</span>
+                    <span  >In the Press</span>
                   </div>
                 </div>
               </div>
@@ -194,11 +194,11 @@ const Testimonials = () => {
                 <div className="about-the-product" onClick={toogleLegal}>
                   <h3>Legal</h3>
                   <div className="icon">
-                    <a href="#" style={{ display: Legal ? "none" : "flex" }}>
+                    <a  style={{ display: Legal ? "none" : "flex" }}>
                       <RiArrowDownSLine />
                     </a>
                     <a
-                      href="#"
+                      
                       style={{ display: Legal ? "block" : "none" }}
                       className="arrow-up"
                     >
@@ -213,9 +213,9 @@ const Testimonials = () => {
                 >
                   <div className="about-the-product-contant">
                     <p>Legal</p>
-                    <span   href="">Terms & Conditions</span>
-                    <span   href="">Privicy Policy</span>
-                    <span   href="">Social Responsibility</span>
+                    <span   >Terms & Conditions</span>
+                    <span   >Privicy Policy</span>
+                    <span   >Social Responsibility</span>
                   </div>
                 </div>
               </div>
@@ -227,11 +227,11 @@ const Testimonials = () => {
                 <div className="about-the-product" onClick={toggleSupport}>
                   <h3>Support</h3>
                   <div className="icon">
-                    <a href="#" style={{ display: Support ? "none" : "flex" }}>
+                    <a  style={{ display: Support ? "none" : "flex" }}>
                       <RiArrowDownSLine />
                     </a>
                     <a
-                      href="#"
+                      
                       style={{ display: Support ? "block" : "none" }}
                       className="arrow-up"
                     >
@@ -246,9 +246,9 @@ const Testimonials = () => {
                 >
                   <div className="about-the-product-contant">
                     <p>Legal</p>
-                    <span   href="">Terms & Conditions</span>
-                    <span   href="">Privicy Policy</span>
-                    <span   href="">Social Responsibility</span>
+                    <span   >Terms & Conditions</span>
+                    <span   >Privicy Policy</span>
+                    <span   >Social Responsibility</span>
                   </div>
                 </div>
               </div>
@@ -259,31 +259,31 @@ const Testimonials = () => {
             <div className="testmoninial-col-1">
               <div className="first">
                 <p className="testimonial-heading-contat">Our Products</p>
-                <a className="testimonial-realated-things-noise" href="">
+                <a className="testimonial-realated-things-noise" >
                   Smart Watches
                 </a>
-                <a className="testimonial-realated-things-noise" href="">
+                <a className="testimonial-realated-things-noise" >
                   Wireless Earbuds
                 </a>
-                <a className="testimonial-realated-things-noise" href="">
+                <a className="testimonial-realated-things-noise" >
                   Luna Smart Ring
                 </a>
-                <a className="testimonial-realated-things-noise" href="">
+                <a className="testimonial-realated-things-noise" >
                   NoiseFit App
                 </a>
-                <a className="testimonial-realated-things-noise" href="">
+                <a className="testimonial-realated-things-noise" >
                   Noise Gift Card
                 </a>
               </div>
               <div className="second">
                 <p className="testimonial-heading-contat">For Business</p>
-                <a className="testimonial-realated-things-noise" href="">
+                <a className="testimonial-realated-things-noise" >
                   Noise for Business
                 </a>
-                <a className="testimonial-realated-things-noise" href="">
+                <a className="testimonial-realated-things-noise" >
                   Corporate Enquiries
                 </a>
-                <a className="testimonial-realated-things-noise" href="">
+                <a className="testimonial-realated-things-noise" >
                   Brand Partnership Enquiries
                 </a>
               </div>
@@ -292,28 +292,28 @@ const Testimonials = () => {
             <div className="testmoninial-col-1">
               <div className="first">
                 <p>About Noise</p>
-                <a className="testimonial-realated-things-noise" href="">
+                <a className="testimonial-realated-things-noise" >
                   About Us
                 </a>
-                <a className="testimonial-realated-things-noise" href="">
+                <a className="testimonial-realated-things-noise" >
                   Blogs
                 </a>
-                <a className="testimonial-realated-things-noise" href="">
+                <a className="testimonial-realated-things-noise" >
                   Careers
                 </a>
-                <a className="testimonial-realated-things-noise" href="">
+                <a className="testimonial-realated-things-noise" >
                   In the Press
                 </a>
               </div>
               <div className="second">
                 <p className="testimonial-heading-contat"> Legal</p>
-                <a className="testimonial-realated-things-noise" href="">
+                <a className="testimonial-realated-things-noise" >
                   Terms & Conditions
                 </a>
-                <a className="testimonial-realated-things-noise" href="">
+                <a className="testimonial-realated-things-noise" >
                   Privicy Policy
                 </a>
-                <a className="testimonial-realated-things-noise" href="">
+                <a className="testimonial-realated-things-noise" >
                   Social Responsibility
                 </a>
               </div>
@@ -322,19 +322,19 @@ const Testimonials = () => {
             <div className="testmoninial-col-1">
               <div className="second">
                 <p className="testimonial-heading-contat">Support</p>
-                <a className="testimonial-realated-things-noise" href="">
+                <a className="testimonial-realated-things-noise" >
                   Download your Invoice
                 </a>
-                <a className="testimonial-realated-things-noise" href="">
+                <a className="testimonial-realated-things-noise" >
                   Tracks Your Order
                 </a>
-                <a className="testimonial-realated-things-noise" href="">
+                <a className="testimonial-realated-things-noise" >
                   Shipping and Return Policy
                 </a>
-                <a className="testimonial-realated-things-noise" href="">
+                <a className="testimonial-realated-things-noise" >
                   Register a Complaint
                 </a>
-                <a className="testimonial-realated-things-noise" href="">
+                <a className="testimonial-realated-things-noise" >
                   Contact Us
                 </a>
               </div>

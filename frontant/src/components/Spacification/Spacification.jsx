@@ -97,13 +97,13 @@ const Spacification = () => {
                       <h3>Audio</h3>
                       <div className="icon">
                         <a
-                          href="#"
+                          
                           style={{ display: audioMenu ? "none" : "flex" }}
                         >
                           <RiArrowDownSLine />
                         </a>
                         <a
-                          href="#"
+                          
                           style={{ display: audioMenu ? "block" : "none" }}
                           className="arrow-up"
                         >
@@ -134,7 +134,7 @@ const Spacification = () => {
                       <h3>Connectivity</h3>
                       <div className="icon">
                         <a
-                          href="#"
+                          
                           style={{
                             display: connectivityMenuVisible ? "none" : "flex",
                           }}
@@ -142,7 +142,7 @@ const Spacification = () => {
                           <RiArrowDownSLine />
                         </a>
                         <a
-                          href="#"
+                          
                           style={{
                             display: connectivityMenuVisible ? "block" : "none",
                           }}
@@ -202,7 +202,7 @@ const Spacification = () => {
                       <h3>Battery Charging</h3>
                       <div className="icon">
                         <a
-                          href="#"
+                          
                           style={{
                             display: BatteryChargingMenuVisible
                               ? "none"
@@ -212,7 +212,7 @@ const Spacification = () => {
                           <RiArrowDownSLine />
                         </a>
                         <a
-                          href="#"
+                          
                           style={{
                             display: BatteryChargingMenuVisible
                               ? "block"
@@ -276,7 +276,7 @@ const Spacification = () => {
                       <h3>Physical Specification</h3>
                       <div className="icon">
                         <a
-                          href="#"
+                          
                           style={{
                             display: physicalSpacification ? "none" : "flex",
                           }}
@@ -284,7 +284,7 @@ const Spacification = () => {
                           <RiArrowDownSLine />
                         </a>
                         <a
-                          href="#"
+                          
                           style={{
                             display: physicalSpacification ? "block" : "none",
                           }}
@@ -350,7 +350,7 @@ const Spacification = () => {
                       <h3>Additional Features</h3>
                       <div className="icon">
                         <a
-                          href="#"
+                          
                           style={{
                             display: AdditionFeature ? "none" : "flex",
                           }}
@@ -358,7 +358,7 @@ const Spacification = () => {
                           <RiArrowDownSLine />
                         </a>
                         <a
-                          href="#"
+                          
                           style={{
                             display: AdditionFeature ? "block" : "none",
                           }}
@@ -446,7 +446,7 @@ const Spacification = () => {
                       <h3>Comfort</h3>
                       <div className="icon">
                         <a
-                          href="#"
+                          
                           style={{
                             display: Comfort ? "none" : "flex",
                           }}
@@ -454,7 +454,7 @@ const Spacification = () => {
                           <RiArrowDownSLine />
                         </a>
                         <a
-                          href="#"
+                          
                           style={{
                             display: Comfort ? "block" : "none",
                           }}

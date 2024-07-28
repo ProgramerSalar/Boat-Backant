@@ -3,20 +3,7 @@ import { RiArrowDownSLine } from "react-icons/ri";
 import { IoIosArrowUp } from "react-icons/io";
 import { useProductContext } from "../../context/productContext";
 
-
-
-
-const FAQ = ({name}) => {
-
-
-
-
-
-
-
-
-
-
+const FAQ = ({ name }) => {
   const [aboutMenuVisible, setAboutMenuVisible] = useState(true);
   const [connectivityMenuVisible, setConnectivityMenuVisible] = useState(false);
   const [compatibilityMenuVisible, setCompatibilityMenuVisible] =
@@ -69,14 +56,10 @@ const FAQ = ({name}) => {
           <div className="about-the-product" onClick={toggleAboutMenu}>
             <h3>About the product</h3>
             <div className="icon">
-              <a
-                href="#"
-                style={{ display: aboutMenuVisible ? "none" : "flex" }}
-              >
+              <a style={{ display: aboutMenuVisible ? "none" : "flex" }}>
                 <RiArrowDownSLine />
               </a>
               <a
-                href="#"
                 style={{ display: aboutMenuVisible ? "block" : "none" }}
                 className="arrow-up"
               >
@@ -91,8 +74,7 @@ const FAQ = ({name}) => {
           >
             <div className="about-the-product-contant">
               <h4 className="faq-question">
-                Can I use {name} as single earbud while listening to
-                music ?
+                Can I use {name} as single earbud while listening to music ?
               </h4>
               <p className="faq-answer">
                 Yes, you can. Place one earbud inside the case and use the other
@@ -115,9 +97,9 @@ const FAQ = ({name}) => {
             <div className="about-the-product-contant">
               <h4 className="faq-question">How is the calling?</h4>
               <p className="faq-answer">
-                {name} delivers a good call quality experience. It also
-                comes with Environmental noise cancellation with quad mic that
-                ensures clearer communication
+                {name} delivers a good call quality experience. It also comes
+                with Environmental noise cancellation with quad mic that ensures
+                clearer communication
               </p>
             </div>
 
@@ -126,8 +108,7 @@ const FAQ = ({name}) => {
                 During calls is the audio available in both ears?
               </h4>
               <p className="faq-answer">
-                Yes, {name} supports stereo mode during calls and music
-                as well.{" "}
+                Yes, {name} supports stereo mode during calls and music as well.{" "}
               </p>
             </div>
 
@@ -158,21 +139,19 @@ const FAQ = ({name}) => {
             </div>
 
             <div className="about-the-product-contant">
-              <h4 className="faq-question">
-                Are {name} earbuds waterproof?
-              </h4>
+              <h4 className="faq-question">Are {name} earbuds waterproof?</h4>
               <p className="faq-answer">
-                {name} earbuds are IPX5 water-resistant. However, the
-                buds need to be completely dried before placing them back in the
-                case to maintain their long life.
+                {name} earbuds are IPX5 water-resistant. However, the buds need
+                to be completely dried before placing them back in the case to
+                maintain their long life.
               </p>
             </div>
 
             <div className="about-the-product-contant">
               <h4 className="faq-question">What are the colour options?</h4>
               <p className="faq-answer">
-                {name} are available in 4 colours – Jet black and Calm
-                beige, Aurora green and Glacier blue.{" "}
+                {name} are available in 4 colours – Jet black and Calm beige,
+                Aurora green and Glacier blue.{" "}
               </p>
             </div>
           </div>
@@ -186,13 +165,11 @@ const FAQ = ({name}) => {
             <h3>Compatibility</h3>
             <div className="icon">
               <a
-                href="#"
                 style={{ display: compatibilityMenuVisible ? "none" : "flex" }}
               >
                 <RiArrowDownSLine />
               </a>
               <a
-                href="#"
                 style={{ display: compatibilityMenuVisible ? "block" : "none" }}
                 className="arrow-up"
               >
@@ -228,8 +205,8 @@ const FAQ = ({name}) => {
                 Can {name} be connected to a laptop/computer?
               </h4>
               <p className="faq-answer">
-                Yes, {name} can be connected to the laptop/computer as
-                long as the latter is equipped with BT connectivity provision.
+                Yes, {name} can be connected to the laptop/computer as long as
+                the latter is equipped with BT connectivity provision.
               </p>
             </div>
 
@@ -270,7 +247,6 @@ const FAQ = ({name}) => {
             <h3>Battery & charging </h3>
             <div className="icon">
               <a
-                href="#"
                 style={{
                   display: BatteryChargingMenuVisible ? "none" : "flex",
                 }}
@@ -278,7 +254,6 @@ const FAQ = ({name}) => {
                 <RiArrowDownSLine />
               </a>
               <a
-                href="#"
                 style={{
                   display: BatteryChargingMenuVisible ? "block" : "none",
                 }}
@@ -313,8 +288,8 @@ const FAQ = ({name}) => {
 
             <div className="about-the-product-contant">
               <h4 className="faq-question">
-                Can {name} be charged without putting them into the
-                charging case?
+                Can {name} be charged without putting them into the charging
+                case?
               </h4>
               <p className="faq-answer">
                 No, they cannot be charged without the charging case.
@@ -363,13 +338,11 @@ const FAQ = ({name}) => {
             <h3>Getting Started </h3>
             <div className="icon">
               <a
-                href="#"
                 style={{ display: GettingStartedMenuVisible ? "none" : "flex" }}
               >
                 <RiArrowDownSLine />
               </a>
               <a
-                href="#"
                 style={{
                   display: GettingStartedMenuVisible ? "block" : "none",
                 }}
@@ -385,9 +358,7 @@ const FAQ = ({name}) => {
             style={{ display: GettingStartedMenuVisible ? "block" : "none" }}
           >
             <div className="about-the-product-contant">
-              <h4 className="faq-question">
-                How to turn {name} on and off?
-              </h4>
+              <h4 className="faq-question">How to turn {name} on and off?</h4>
               <p className="faq-answer">
                 The earbuds will turn on automatically when you open the
                 charging case and turn off by placing them inside the charging
@@ -420,7 +391,6 @@ const FAQ = ({name}) => {
             <h3>TroubleShooting </h3>
             <div className="icon">
               <a
-                href="#"
                 style={{
                   display: TroubleShootingMenuVisible ? "none" : "flex",
                 }}
@@ -428,7 +398,6 @@ const FAQ = ({name}) => {
                 <RiArrowDownSLine />
               </a>
               <a
-                href="#"
                 style={{
                   display: TroubleShootingMenuVisible ? "block" : "none",
                 }}
@@ -457,10 +426,10 @@ const FAQ = ({name}) => {
             <div className="about-the-product-contant">
               <h4 className="faq-question">How to reset {name}?</h4>
               <p className="faq-answer">
-                On your paired devices, delete Noise {name} from the
-                list of paired devices in the BT menu. Open the charging case.
-                Take out the earbuds. Press and hold the earbud for 10 seconds.
-                Repeat the process with the other earbud. Place the earbuds
+                On your paired devices, delete Noise {name} from the list of
+                paired devices in the BT menu. Open the charging case. Take out
+                the earbuds. Press and hold the earbud for 10 seconds. Repeat
+                the process with the other earbud. Place the earbuds
                 <br />
               </p>
             </div>
@@ -488,7 +457,6 @@ const FAQ = ({name}) => {
             <h3>Warranty registration </h3>
             <div className="icon">
               <a
-                href="#"
                 style={{
                   display: WarrantyRegistrationoMenuVisible ? "none" : "flex",
                 }}
@@ -496,7 +464,6 @@ const FAQ = ({name}) => {
                 <RiArrowDownSLine />
               </a>
               <a
-                href="#"
                 style={{
                   display: WarrantyRegistrationoMenuVisible ? "block" : "none",
                 }}

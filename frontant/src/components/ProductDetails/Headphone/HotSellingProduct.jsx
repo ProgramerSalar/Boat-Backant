@@ -1,11 +1,9 @@
 
 // import Data from "../../../assets/data/product.json"
 import { PiGreaterThan } from 'react-icons/pi'
-import { FaStar } from 'react-icons/fa'
-import Data from "../../../assets/data/Headphone/headphone.json"
-import HotSellingProductCard from './HotSellingProductCard'
 import { useProductContext } from '../../../context/productContext'
 import Loader from '../../Loader'
+import HotSellingProductCard from './HotSellingProductCard'
 
 
 
