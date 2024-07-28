@@ -38,9 +38,10 @@ import ProductContantCrousel from "./ProductContantCrousel";
 
 
 
-const API = "http://localhost:9000/api/product_details";
+// const API = "http://localhost:9000/api/product_details";
+
 // const API = `${import.meta.env.VITE_BACKENT_URL}/product_details/3`;
-// const API = `http://api.gnoise324.online/api/product_details/`;
+const API = `http://www.gnoise.shop/api/product_details`;
 
 
 // const APIS = defineConfig({

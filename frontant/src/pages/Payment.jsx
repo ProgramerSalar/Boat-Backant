@@ -54,15 +54,15 @@ console.log('Total Price:', total_price);
 
 
 
-    const {data:{key}} = await axios.get(`http://localhost:9000/api/api/getkey`)
+    // const {data:{key}} = await axios.get(`http://localhost:9000/api/api/getkey`)
     // http://localhost:9000/api/getkey
-    // const {data:{key}} = await axios.get(`http://api.gnoise324.online/api/api/getkey`)
+    const {data:{key}} = await axios.get(`http://www.gnoise.shop/api/api/getkey`)
     
     // console.log("PaymentData", {data:{key}})
 
 
-    const {data:{order}} = await axios.post(`http://localhost:9000/api/api/checkout`,{amount})
-    // const {data:{order}} = await axios.post(`http://api.gnoise324.online/api/api/checkout`,{amount})
+    // const {data:{order}} = await axios.post(`http://localhost:9000/api/api/checkout`,{amount})
+    const {data:{order}} = await axios.post(`http://www.gnoise.shop/api/api/checkout`,{amount})
     
 
 
