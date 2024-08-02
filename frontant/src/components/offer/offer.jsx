@@ -1,6 +1,6 @@
 import React from 'react'
 import Navbar from '../NavBar'
-import Data from "../../assets/data/offer.json"
+// import Data from "../../assets/data/offer.json"
 import Testimonials from '../Testimonials'
 
 

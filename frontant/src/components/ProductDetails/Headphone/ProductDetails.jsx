@@ -29,10 +29,10 @@ import ProductContantCrousel from "./ProductContantCrousel";
 
 
 
-// const API = "http://localhost:9000/api/product_details";
+const API = "http://localhost:9000/api/product_details";
 
 // const API = `${import.meta.env.VITE_BACKENT_URL}/product_details/3`;
-const API = `http://www.gnoise.shop/api/product_details`;
+// const API = `http://www.gnoise.shop/api/product_details`;
 
 
 
@@ -99,10 +99,7 @@ const ProductDetails = () => {
 
 
   useEffect(() => {
-    // This function will be called on the initial render
     const handleBeforeUnload = (event) => {
-      // Cancel the event as stated by the standard
-      event.preventDefault();
       // Chrome requires returnValue to be set
       event.returnValue = '';
     };
@@ -114,8 +111,9 @@ const ProductDetails = () => {
     return () => {
       window.removeEventListener('beforeunload', handleBeforeUnload);
     };
-  }, []); // Empty dependency array ensures the effect runs only once
+  }, []);
 
+  
 
 
   return (
@@ -153,11 +151,7 @@ const ProductDetails = () => {
               />
             </div>
 
-            {/* salacted color name and color Image add to the card try here  */}
-            {/* <div>
-              <img src={colorImage} alt=""  />
-              <span>{ColorTextName}</span>
-            </div> */}
+          
 
             <div className="color-and-buy-section">
               {/* color and quantity section  */}

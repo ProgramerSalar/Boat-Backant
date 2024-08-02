@@ -108,8 +108,8 @@ const Testimonials = () => {
                     <span    >Smart Watches</span>
                     <span   >Wireless Earbuds</span>
                     <span   >Luna Smart Ring</span>
-                    <span     >NoiseFit App</span>
-                    <span   >Noise Gift Card</span>
+                    <span     >boAt App</span>
+                    <span   >boAt Gift Card</span>
                   </div>
                 </div>
               </div>
@@ -143,7 +143,7 @@ const Testimonials = () => {
                 >
                   <div className="about-the-product-contant">
                     <p>For Business</p>
-                    <span   >Noise for Business</span>
+                    <span   >boAt for Business</span>
                     <span   >Corporate Enquiries</span>
                     <span   >Brand Partnership Enquiries</span>
                   </div>
@@ -155,7 +155,7 @@ const Testimonials = () => {
               {/* About Noise parts here */}
               <div className="ham-menu">
                 <div className="about-the-product" onClick={toogleAboutNoise}>
-                  <h3>About Noise</h3>
+                  <h3>About boAt</h3>
                   <div className="icon">
                     <a
                       
@@ -178,7 +178,7 @@ const Testimonials = () => {
                   style={{ display: AboutNoise ? "block" : "none" }}
                 >
                   <div className="about-the-product-contant">
-                    <p>About Noise</p>
+                    <p>About boAt</p>
                     <span   >About Us</span>
                     <span   >Blogs</span>
                     <span   >Careers</span>
@@ -269,16 +269,16 @@ const Testimonials = () => {
                   Luna Smart Ring
                 </a>
                 <a className="testimonial-realated-things-noise" >
-                  NoiseFit App
+                boAt App
                 </a>
                 <a className="testimonial-realated-things-noise" >
-                  Noise Gift Card
+                boAt Gift Card
                 </a>
               </div>
               <div className="second">
                 <p className="testimonial-heading-contat">For Business</p>
                 <a className="testimonial-realated-things-noise" >
-                  Noise for Business
+                boAt for Business
                 </a>
                 <a className="testimonial-realated-things-noise" >
                   Corporate Enquiries
@@ -291,7 +291,7 @@ const Testimonials = () => {
 
             <div className="testmoninial-col-1">
               <div className="first">
-                <p>About Noise</p>
+                <p>About boAt</p>
                 <a className="testimonial-realated-things-noise" >
                   About Us
                 </a>

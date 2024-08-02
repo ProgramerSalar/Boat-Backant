@@ -179,8 +179,8 @@ const Content = () => {
                         </a>
                     </div>
                     <div className="content-written">
-                        <h1>Hear the Noise first</h1>
-                        <h5>Sign up now to hear about our latest offers, new products, <br /> collaborations, all things Noise - straight to your inbox.</h5>
+                        <h1>Hear the boAt first</h1>
+                        <h5>Sign up now to hear about our latest offers, new products, <br /> collaborations, all things boAt - straight to your inbox.</h5>
                         <input className="input-contant-home" type="text" placeholder="Your email here" />
                         <button>SIGN UP</button>
                     </div>

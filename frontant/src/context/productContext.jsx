@@ -8,7 +8,8 @@ import reducer from "../reducer/productReducer";
 
 const AppContext = createContext();
 
-const API = `http://www.gnoise.shop/api/product_details`;
+// const API = `http://www.gnoise.shop/api/product_details`;
+const API = `http://localhost:9000/api/product_details`;
 
 
 // privider

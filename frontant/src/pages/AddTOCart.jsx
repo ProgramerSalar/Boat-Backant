@@ -3,9 +3,9 @@ import { useCartContext } from "../context/Cart_Context";
 import { NavLink, json } from "react-router-dom";
 import axios from "axios";
 import CartItemCard from "../components/CartItemCard";
-import Data from "../assets/data/cart.json";
+// import Data from "../assets/data/cart.json";
 import Privacy from "../components/ProductDetails/Privacy";
-import CheckoutCart from "../components/Spacification/CheckoutCart";
+// import CheckoutCart from "../components/Spacification/CheckoutCart";
 import Navbar from "../components/NavBar";
 import { useCheckoutContext } from "../context/checkout_context";
 
