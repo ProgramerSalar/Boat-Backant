@@ -188,7 +188,7 @@ const ProductDetails = () => {
       <Disclaimer name={name} />
 
       <Heading />
-      <Review Reviews={Reviews} />
+      {/* <Review Reviews={Reviews} /> */}
 
       <Testimonials />
       <Footer />

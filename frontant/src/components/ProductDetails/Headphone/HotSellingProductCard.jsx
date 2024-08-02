@@ -3,6 +3,7 @@ import { FaStar } from 'react-icons/fa'
 import { NavLink } from 'react-router-dom'
 
 const HotSellingProductCard = (i) => {
+    // console.log("name", i.name)
     return (
 
         <NavLink to={`/product-details/${i.id}`}>
@@ -17,7 +18,11 @@ const HotSellingProductCard = (i) => {
                         </a>
                     </div>
                     <div className="product-details" >
-                        <h5 >{i.name}</h5>
+                        <h5
+                        style={{
+                            color:"black"
+                        }}
+                        >{i.name}</h5>
                         <p className="product-descripation">{i.desc}</p>
                         <div className="product-color">
                             <p className="color1">{i["watch_color"][0]['color1']}</p>

@@ -5,7 +5,7 @@ import Testimonials from "../Testimonials";
 import Navbar from "../NavBar";
 
 const Hot_Selling_Gadgets_card = (i) => {
-  console.log("i", i);
+  console.log("i", i.name);
   return (
     <Link to={`/product-details/${i.id}`}>
       <div className="product-collection-details">
@@ -16,7 +16,11 @@ const Hot_Selling_Gadgets_card = (i) => {
         </div>
 
         <div className="product-details">
-          <h3>{i.name}</h3>
+          <h3 className="heading-of-hot-selling-product" style={{
+            color:"black",
+            opacity:"0.9",
+            fontWeight:"bolder"
+          }}>{i.name}</h3>
           <p style={{
              overflow:"hidden",
              "textOverflow":"ellipsis",

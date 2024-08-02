@@ -95,7 +95,7 @@ const Heading = () => {
               </div>
               <div className="bar-section"></div>
               <div className="percantage-rating">
-                <p>0%</p>
+                <p>3%</p>
               </div>
               <div className="num-of-people-rated">
                 <p>(0)</p>
@@ -120,7 +120,7 @@ const Heading = () => {
           </div>
         </div>
         <div className="third-section">
-          <input type="search" placeholder="Search reviews" />
+          <input type="search" placeholder="Search reviews" className="input-section-in-product-details-page" />
           <button>Write a review</button>
         </div>
       </div>

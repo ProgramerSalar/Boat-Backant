@@ -5,7 +5,7 @@ const ReviewCard = ({review}) => {
     // console.log(review.image)
   return (
     <div className="two-section-found-in-one-contant" style={{
-        background:"black"
+        // background:"black"
     }}>
 <div className="review-card-main-container">
         <div className="image-section">

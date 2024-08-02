@@ -1,10 +1,4 @@
-.review-card-main-container{
-    background-color: black;
-}
 
-.two-section-found-in-one-contant{
-    background-color: rgb(210, 188, 188);
-}
 
 // mobile screen 
 @media screen and (min-width: 0px) and (max-width: 450px) {
@@ -12,7 +6,7 @@
         display: flex;
        
         // width: 27rem;
-        background-color: rgb(60, 89, 194);
+        // background-color: rgb(60, 89, 194);
         align-items: center;
         text-align: start;
         padding: 0.9rem;
@@ -64,7 +58,8 @@
         display: flex;
         align-items: flex-start;
         margin: 0.5rem 0;
-        color: yellow;
+        color:blue;
+
         // background-color: yellow;
 
     
@@ -141,7 +136,7 @@
         display: flex;
         align-items: flex-start;
         margin: 0.5rem 0;
-        color: yellow;
+        color:blue;
     
     }
     
@@ -212,7 +207,8 @@
         display: flex;
         align-items: flex-start;
         margin: 0.5rem 0;
-        color: yellow;
+        color:blue;
+
     
     }
     
